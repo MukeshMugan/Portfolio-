@@ -202,7 +202,7 @@ GROUP BY CUSTOMER_TYPE
 ORDER BY LARGEST_TAX DESC
 LIMIT 1;
 -- --------------------------------------------------------------------------------------------------------------------------
--- 															Customer
+-- 														Customer
 -- How many unique customer types does the data have?
 SELECT 
     COUNT(DISTINCT CUSTOMER_TYPE) AS UNIQUE_CUSTOMER_TYPES
